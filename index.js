@@ -1,19 +1,21 @@
-// Define the currentUser variable
-const currentUser = "Alice";
+// Write your code in this file!
+// Define companyName as a const with the value 'Scuber'
+const companyName = 'Scuber';
 
-// Define the welcomeMessage variable
-const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
+// Define mostProfitableNeighborhood using let with the value 'Chelsea'
+let mostProfitableNeighborhood = 'Chelsea';
 
-// Define the excitedWelcomeMessage variable
-const excitedWelcomeMessage = welcomeMessage.toUpperCase();
+// Define companyCeo using let with the value 'Susan Smith'
+let companyCeo = 'Susan Smith';
 
-// Define the shortGreeting variable
-const shortGreeting = `Welcome, ${currentUser.charAt(0)}!`;
+// Define currentUser with a sample value
+let currentUser = 'Grace Hopper';
 
-// Export the variables if needed (depending on your test setup)
-module.exports = {
-  currentUser,
-  welcomeMessage,
-  excitedWelcomeMessage,
-  shortGreeting
-};
+// Define welcomeMessage that contains "Welcome to Flatbook, " and the value of currentUser, ending with an exclamation point
+let welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
+
+// Define excitedWelcomeMessage that contains "WELCOME TO FLATBOOK, " and the value of currentUser in uppercase, ending with an exclamation point
+let excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser.toUpperCase()}!`;
+
+// Define shortGreeting that contains "Welcome, " and the first initial of currentUser, ending with an exclamation point
+let shortGreeting = `Welcome, ${currentUser.charAt(0)}!`;
